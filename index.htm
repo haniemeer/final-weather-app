@@ -19,14 +19,34 @@
 <body>
     <div class="container shadow">
         <div class="wheather-app">
+            <form id="search-form" class="mb-3 mt-4">
+                <div class="row ">
+                  <div class="col-3">
+                    <input
+                      type="search"
+                      placeholder="Type a city.."
+                      class="form-control"
+                      id="city-input"
+                      autocomplete="off"
+                    />
+                  </div>
+                  <div class="col-2">
+                    <input
+                      type="submit"
+                      value="Search the city"
+                      class="btn btn-outline-warning w-100"
+                    />
+                  </div>
+                </div>
+              </form>
             <div class="row">
-                <h1 id="city-name">Tehran</h1>
+                <h1 id="cityName">Tehran</h1>
                 <div class="col-6">
                    
-                    <ul><li>
-                    Monday 12:26
+                    <ul><li>Last Updated: <span id="date"></span>
+                    
                     </li>
-                     <li>
+                     <li id="description">
                        Mostly sunny
                     </li></ul>
                     <div class="clearfix weather-temperature">
@@ -39,9 +59,8 @@
                     </div>
                  <div class="col-6">
                     <ul>
-                        <li>Precipitation: <span id="Precipitation"></span>0%</li>
-                      <li>Humidity: <span id="humidity"></span>15%</li>
-                      <li>Wind: <span id="wind"></span>18m/h</li>
+                      <li>Humidity: <span id="humidity"></span>%</li>
+                      <li>Wind: <span id="wind"></span>m/h</li>
                     </ul>
                   </div>
             </div>
