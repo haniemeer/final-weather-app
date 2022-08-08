@@ -17,6 +17,48 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="wheather-app">
+            <div class="row">
+                <h1 id="city-name">Tehran</h1>
+                <div class="col-6">
+                   
+                    <ul><li>
+                    Monday 12:26
+                    </li>
+                     <li>
+                       Mostly sunny
+                    </li></ul>
+                    <div class="clearfix weather-temperature">
+                        <img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="sunny" id="icon" class="float-left" />
+                        <div class="float-left">
+                          <strong id="temperature">23</strong
+                          ><span class="units"> °C</span>
+                        </div>
+                     </div>
+                    </div>
+                 <div class="col-6">
+                    <ul>
+                        <li>Precipitation: <span id="Precipitation"></span>0%</li>
+                      <li>Humidity: <span id="humidity"></span>15%</li>
+                      <li>Wind: <span id="wind"></span>18m/h</li>
+                    </ul>
+                  </div>
+            </div>
+            <small>
+                <a
+                  href="https://github.com/haniemeer/final-weather-app"
+                  target="_blank"
+                  >Open-source code</a
+                >
+                This project was coded by Hanieh Esmaeili and <a
+                href="https://shecodeswheather-app.netlify.app/"
+                target="_blank"
+                > hosted on Netlify</a
+              >
+              </small>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
