@@ -8,7 +8,8 @@
     margin-bottom: 0;
   }
   .container{
-    max-width: 900px;
+    min-width: 300px;
+    max-width: 800px;
     border: #f0d794 1px solid;
     margin-top: 70px;
     border-radius: 6px;;

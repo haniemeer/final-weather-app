@@ -73,5 +73,8 @@ function handleSubmit(event) {
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
-
+// let farenhlink=document.querySelector("#farenheit-link")
+// farenhlink.addEventListener("click",fareheit)
+// let celciousLink=document.querySelector("#celcious-link")
+// celciousLink.addEventListener("click",celcious)
 search("Tehran");
